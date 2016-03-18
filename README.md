@@ -11,7 +11,7 @@ Please note. We use github for versioning purposes only. If anyone wants the act
 
 2.) Unzip everything into its own folder.
 
-3.) Drop the reference table to be converted into that folder.
+3.) Drop the reference table(s) to be converted into that folder.
 
 
 

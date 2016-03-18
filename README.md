@@ -16,9 +16,11 @@ Please note. We use github for versioning purposes only. If anyone wants the act
 
 
 ## Usage
-1.) Double click the "Launch me from windows" file.
+1.) Double click the "CLICKTO LAUNCH" batch file.
 
 2.) Select your reference table then run.
+
+3.) Repeat 2.) with the second reference table.
 
 ## Notes:
 The script does NOT have built in vlaidation measures currently. It will have eventually, but it's stable enough data source that there are other priorities at the moment.

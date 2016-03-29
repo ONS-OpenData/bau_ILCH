@@ -13,7 +13,7 @@ import Tkinter as tk
 def the_hard_way(lines):
     with open('doing it the hard way.csv', 'wb') as f:
         for line in lines:
-            f.print(line)
+            f.write(line)
 
 def get_file1():
     global file1 

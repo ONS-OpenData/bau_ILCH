@@ -1,0 +1,245 @@
+(dp0
+S'dim_item_id_4'
+p1
+cnumpy.core.multiarray
+_reconstruct
+p2
+(cnumpy
+ndarray
+p3
+(I0
+tp4
+S'b'
+p5
+tp6
+Rp7
+(I1
+(L2L
+tp8
+cnumpy
+dtype
+p9
+(S'O8'
+p10
+I0
+I1
+tp11
+Rp12
+(I3
+S'|'
+p13
+NNNI-1
+I-1
+I63
+tp14
+bI00
+(lp15
+S'Not seasonally adjusted'
+p16
+aS''
+p17
+atp18
+bsS'dim_item_id_1'
+p19
+g2
+(g3
+(I0
+tp20
+g5
+tp21
+Rp22
+(I1
+(L5L
+tp23
+g12
+I00
+(lp24
+S'Labour Costs per Hour'
+p25
+aS'Wage Costs per Hour'
+p26
+aS'Other Costs per Hour'
+p27
+aS'Labour Costs per Hour Excluding Bonuses and Arrears'
+p28
+ag17
+atp29
+bsS'dim_item_id_2'
+p30
+g2
+(g3
+(I0
+tp31
+g5
+tp32
+Rp33
+(I1
+(L34L
+tp34
+g12
+I00
+(lp35
+S'ILCH_A Agriculture, Forestry and Fishing'
+p36
+aS'ILCH_B Mining and Quarrying'
+p37
+aS'ILCH_C1 Manufacturing - Food Products, Beverages and Tobacco '
+p38
+aS'ILCH_C2 Manufacturing - Textiles, Leather and Clothing'
+p39
+aS'ILCH_C3 Manufacturing - Chemicals and Man-made Fibres'
+p40
+aS'ILCH_C4 Manufacturing - Basic Metals and Metal Products'
+p41
+aS'ILCH_C5 Manufacturing - Engineering and Allied Industries'
+p42
+aS'ILCH_C6 Other Manufacturing'
+p43
+aS'ILCH_D&E Electricity, Gas and Water Supply'
+p44
+aS'ILCH_F Construction'
+p45
+aS'ILCH_G46 Wholesale Trade'
+p46
+aS'ILCH_G45&G47 Retail Trade and Repairs'
+p47
+aS'ILCH_H Transport and Storage'
+p48
+aS'ILCH_I Accommodation and Food Service Activities'
+p49
+aS'ILCH_J Information and Communication'
+p50
+aS'ILCH_K Financial & Insurance Activities'
+p51
+aS'ILCH_L Real Estate Activities'
+p52
+aS'ILCH_M Professional, Scientific & Technical Activities'
+p53
+aS'ILCH_N Administrative and Support Service Activities'
+p54
+aS'ILCH_O Public Administration'
+p55
+aS'ILCH_P Education'
+p56
+aS'ILCH_Q Health and Social Work'
+p57
+aS'ILCH_R Arts, Entertainment and Recreation'
+p58
+aS'ILCH_S Other Service Activities'
+p59
+aS'Whole Economy'
+p60
+aS'Private Sector'
+p61
+aS'Public  Sector'
+p62
+aS'Services'
+p63
+aS'Finance and  Business Services'
+p64
+aS'Public Sector excluding  Financial Services'
+p65
+aS'Manufacturing'
+p66
+aS'Construction'
+p67
+aS'Wholesaling, Retailing, Hotels & Restaurants'
+p68
+ag17
+atp69
+bsS'dim_item_id_3'
+p70
+g2
+(g3
+(I0
+tp71
+g5
+tp72
+Rp73
+(I1
+(L2L
+tp74
+g12
+I00
+(lp75
+S'Annual'
+p76
+ag17
+atp77
+bsS'dim_id_3'
+p78
+g2
+(g3
+(I0
+tp79
+g5
+tp80
+Rp81
+(I1
+(L2L
+tp82
+g12
+I00
+(lp83
+S'Growth Period'
+p84
+ag17
+atp85
+bsS'dim_id_2'
+p86
+g2
+(g3
+(I0
+tp87
+g5
+tp88
+Rp89
+(I1
+(L2L
+tp90
+g12
+I00
+(lp91
+S'SIC'
+p92
+ag17
+atp93
+bsS'dim_id_1'
+p94
+g2
+(g3
+(I0
+tp95
+g5
+tp96
+Rp97
+(I1
+(L2L
+tp98
+g12
+I00
+(lp99
+S'Costs'
+p100
+ag17
+atp101
+bsS'dim_id_4'
+p102
+g2
+(g3
+(I0
+tp103
+g5
+tp104
+Rp105
+(I1
+(L2L
+tp106
+g12
+I00
+(lp107
+S'SA / NSA'
+p108
+ag17
+atp109
+bs.

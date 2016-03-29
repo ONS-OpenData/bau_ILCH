@@ -23,4 +23,4 @@ Please note. We use github for versioning purposes only. If anyone wants the act
 3.) Repeat 2.) with the second reference table.
 
 ## Notes:
-The script does NOT have built in vlaidation measures currently. It will have eventually, but it's stable enough data source that there are other priorities at the moment.
+The script does NOT have built in validation measures currently. It will have eventually, but it's stable enough data source that there are other priorities at the moment.

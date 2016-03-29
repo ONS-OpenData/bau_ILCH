@@ -7,6 +7,8 @@ Created on Tue Mar 15 12:03:35 2016
 
 import pandas as pd
 import sys
+import validation_tool as vt
+import compare as cp
 
 load_file = sys.argv[1]
 
@@ -19,7 +21,11 @@ obs_file['time_dim_item_id'][-1:] = ''
 obs_file['time_dim_item_label_eng'] = obs_file['time_dim_item_id']
 
 # Add a time type
-obs_file['time_type'] = 'Quarter'
+obs_file['time_type'][:-1] = 'Quarter'
 
-obs_file.to_csv('transform' + load_file[4:], index=False)
+out_filename = 'transform'+load_file[4:]
+vt.frame_checks(obs_file, out_filename)
+obs_file.to_csv(out_filename, index=False)
 
+# Now run the coparissons against past datasets
+cp.compare(sys.argv[2], out_filename)

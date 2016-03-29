@@ -60,8 +60,8 @@ def runfiles(source):
     #Get rid of file extension
     filename = filename[:-4]
     
-    linestolaunch.append('python transform_ILCH.py "data-' + filename + '-ILCH-growth.csv"')
-    linestolaunch.append('python transform_ILCH.py "data-' + filename + '-ILCH-level -.csv"')
+    linestolaunch.append('python transform_ILCH.py "data-' + filename + '-ILCH-growth.csv" Growth')
+    linestolaunch.append('python transform_ILCH.py "data-' + filename + '-ILCH-level -.csv" Level')
     
     
     import subprocess as sp     

@@ -11,9 +11,10 @@ import Tkinter as tk
 # Function that outputs every command lines this script is running to a txt file
 # This is purely for debugging in the event somthing doesn't work
 def the_hard_way(lines):
-    with open('doing it the hard way.csv', 'wb') as f:
+    with open('doing it the hard way.txt', 'wb') as f:
         for line in lines:
             f.write(line)
+            f.write('\n')
 
 def get_file1():
     global file1 

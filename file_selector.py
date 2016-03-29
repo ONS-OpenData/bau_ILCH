@@ -69,7 +69,7 @@ def runfiles(source):
                 p = sp.Popen(each, shell=True) #, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 p.communicate()
                 
-    the_hard_way(lines_to_launch)
+    the_hard_way(linestolaunch)
 
     print ''    
     print ''

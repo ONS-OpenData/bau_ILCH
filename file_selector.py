@@ -8,6 +8,12 @@ Created on Wed Sep 30 17:48:22 2015
 import tkFileDialog
 import Tkinter as tk
 
+# Function that outputs every command lines this script is running to a txt file
+# This is purely for debugging in the event somthing doesn't work
+def the_hard_way(lines):
+    with open('doing it the hard way.csv', 'wb') as f:
+        for line in lines:
+            f.print(line)
 
 def get_file1():
     global file1 
@@ -62,6 +68,8 @@ def runfiles(source):
     for each in linestolaunch:
                 p = sp.Popen(each, shell=True) #, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 p.communicate()
+                
+    the_hard_way(lines_to_launch)
 
     print ''    
     print ''

@@ -23,3 +23,8 @@ Please note. We use github for versioning purposes only. If anyone wants the act
 3.) Repeat 2.) with the second reference table.
 
 
+## Structure
+
+This recipe is intended for use with a very specific legacy output structure. If you're a visitor and running (I wouldnt advise it - use the demo), you'll need to use the WDA structure_csv_user.py file stored elsewhere on our github.
+
+
